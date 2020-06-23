@@ -1,2 +1,7 @@
 # SensitiveAnalysis
-For classifying whether the review is negative or positive, I adopte two kind of machine learning methods, which are deep learning and classification. For deep learning method, I build model with multi-layer perceptron and recurrent neural network (RNN). I encode the target label (i.e., y, sentiment value) into binary category. For both models, I give them train dataset, validation dataset and test dataset with 28,000 data, 7,000 data and 15,000 data, respectively. And use categorical_crossentropy as a loss function and adam as an optimizer. For classification method, I adopte support vector machine(SVM). The number of data for training is 35,000 and for testing is 15,000.
+This project is aimed to distinguish reviews into postive or negative statements.
+The dataset is available in: http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
+
+I adopte two kinds of machine learning methods, which are deep learning and classification. 
+For deep learning method, I build model with multi-layer perceptron and recurrent neural network (RNN). 
+For classification method, I adopte support vector machine(SVM).
